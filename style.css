@@ -4,3 +4,22 @@ body{
     grid-template-rows: 1fr 1.5fr 1.5fr 1fr;
     gap: 10px;
 }
+h1, h3{
+    text-align: center;
+}
+header{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+nav{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+main{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+footer{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
