@@ -3,7 +3,7 @@ body{
     grid-template-columns: 1fr 5.5fr 1fr;
     grid-template-rows: 1fr 1.5fr 1.5fr 1fr;
     gap: 10px;
-    background-image: url(./BG64.jpg);
+    background-image: url(./BG64.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
