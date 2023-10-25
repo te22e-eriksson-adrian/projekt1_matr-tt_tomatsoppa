@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: 1fr 5.5fr 1fr;
+    grid-template-columns: 1fr 2.75fr 2.75fr 1fr;
     grid-template-rows: 1fr 1.5fr 1.5fr 1fr;
     gap: 10px;
     background-image: url(./BG64.webp);
@@ -19,20 +19,24 @@ h1, h3{
     margin-top: 30px;
     font-style: italic;
 }
-.list{
+#list{
     background-color: #fcc9c5;
     width: 280px;
 }
 header{
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 1/2;
 }
 nav{
     grid-column: 2/3;
     grid-row: 2/3;
 }
+.bilder{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
 main{
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 3/4;
     background-color: #fcc9c5;
     padding-left: 10px;
@@ -41,7 +45,9 @@ main{
     padding-bottom: 10px;
 }
 footer{
-    grid-column: 2/3;
+    grid-column: 2/4;
     grid-row: 4/5;
     background-color: #fcc9c5;
+    max-height: 120px;
+    margin-top: 26px;
 }
