@@ -25,6 +25,9 @@ h1, h3{
 #list{
     background-color: #fcc9c5;
     width: 280px;
+    height: 210px;
+    font-size: 0.8rem;
+    margin-top: 20px;
 }
 header{
     grid-column: 2/4;
@@ -53,11 +56,13 @@ main{
     padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 20px;
 }
 footer{
     grid-column: 2/4;
     grid-row: 4/5;
     background-color: #fcc9c5;
-    max-height: 120px;
     margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 35px;
 }
