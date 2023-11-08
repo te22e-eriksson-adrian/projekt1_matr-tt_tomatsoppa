@@ -72,3 +72,11 @@ footer{
     margin-bottom: 20px;
     padding-top: 35px;
 }
+a:hover{
+    background-color: blue;
+    color: white;
+}
+a:active{
+    background-color: purple;
+    color: white;
+}
