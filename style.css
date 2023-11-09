@@ -41,6 +41,7 @@ nav{
     display: flex;
     flex-direction: row;
     margin-left: 7.5px;
+    padding-top: 10px;
 }
 img{
     max-height: 210px;
