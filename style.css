@@ -31,6 +31,23 @@ h1, h3{
     margin-top: 20px;
     border-radius: 5px;
 }
+input{
+    outline: none;
+    border: none;
+    background-color: #fcc9c5;
+}
+.sok{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 25px;
+    border-radius: 12.5px;
+    background-color: #fcc9c5;
+    margin-left: 360px;
+    margin-right: 360px;
+}
 header{
     grid-column: 2/4;
     grid-row: 1/2;
